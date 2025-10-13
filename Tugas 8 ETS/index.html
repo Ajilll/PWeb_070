@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelYuk - Jasa Travel Antar Kota & Kirim Paket</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="hero">
+        <nav class="container">
+            <a href="#" class="logo">TravelYuk</a>
+            <ul>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#benefits">Manfaat</a></li>
+                <li><a href="#form">Pesan</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content container">
+            <h1>Solusi Perjalanan dan Pengiriman Paket Antar Kota</h1>
+            <p>Aman, cepat, dan terpercaya. Kami siap melayani kebutuhan perjalanan penumpang maupun pengiriman barang Anda.</p>
+            <a href="#form" class="cta-button">Pesan Layanan Sekarang</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Layanan-->
+        <section id="services" class="container">
+            <h2>Layanan Utama Kami</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Pengantaran Penumpang</h3>
+                    <p>Perjalanan antar kota yang nyaman dengan armada terbaik dan driver profesional. Tepat waktu dan aman.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Kirim Paket Barang</h3>
+                    <p>Layanan pengantaran paket kilat antar kota. Barang Anda kami jamin aman dan sampai di tujuan dengan cepat.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefit-->
+        <section id="benefits" class="section-highlight">
+            <div class="container">
+                <h2>Kenapa Memilih TravelYuk?</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item"><h3>Pemesanan Fleksibel</h3><p>Pesan kapan saja melalui website kami.</p></div>
+                    <div class="benefit-item"><h3>Armada Terawat</h3><p>Perjalanan aman dan nyaman.</p></div>
+                    <div class="benefit-item"><h3>Harga Kompetitif</h3><p>Penawaran harga terbaik tanpa biaya tersembunyi.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimoni-->
+        <section id="testimonials" class="container">
+            <h2>Apa Kata Pelanggan Kami</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card"><blockquote>"Pelayanannya cepat dan drivernya ramah. Recommended!"</blockquote><cite>- Budi Santoso, Jakarta</cite></div>
+                <div class="testimonial-card"><blockquote>"Kirim paket sehari sampai. Harganya juga lebih murah. Mantap!"</blockquote><cite>- Anita Wijaya, Bandung</cite></div>
+            </div>
+        </section>
+
+        <!-- Formulir-->
+        <section id="form" class="container">
+            <h2>Pesan Layanan Anda</h2>
+            <p>Silakan isi detail di bawah ini dan tim kami akan segera menghubungi Anda.</p>
+            <form>
+                <div class="form-group"><label for="service">Pilih Layanan</label><select id="service" name="service"><option value="penumpang">Pengantaran Penumpang</option><option value="paket">Kirim Paket Barang</option></select></div>
+                <div class="form-group"><label for="name">Nama Lengkap</label><input type="text" id="name" name="name" required></div>
+                <div class="form-group"><label for="whatsapp">Nomor WhatsApp</label><input type="tel" id="whatsapp" name="whatsapp" required></div>
+                <div class="form-group"><label for="pickup">Alamat Penjemputan</label><input type="text" id="pickup" name="pickup" required></div>
+                <div class="form-group"><label for="destination">Alamat Tujuan</label><input type="text" id="destination" name="destination" required></div>
+                <div class="form-group"><label for="date">Tanggal</label><input type="date" id="date" name="date" required></div>
+                <button type="submit" class="cta-button">Kirim Permintaan Pesan</button>
+            </form>
+        </section>
+
+        <!-- FAQ-->
+        <section id="faq" class="section-highlight">
+            <div class="container">
+                <h2>Pertanyaan yang Sering Diajukan</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question">Rute mana saja yang tersedia?</button>
+                        <div class="faq-answer"><p>Saat ini kami melayani rute utama di Pulau Jawa, seperti Jakarta-Bandung, Jakarta-Semarang, Surabaya-Malang, dan sebaliknya.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Bagaimana cara pembayarannya?</button>
+                        <div class="faq-answer"><p>Anda bisa membayar melalui transfer bank atau langsung kepada driver saat penjemputan.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Apakah saya bisa mengubah jadwal?</button>
+                        <div class="faq-answer"><p>Perubahan jadwal bisa dilakukan maksimal 12 jam sebelum waktu keberangkatan. Silakan hubungi customer service kami.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer-->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TravelYuk. Dibuat dengan Penuh Semangat.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
